@@ -16,3 +16,4 @@ So right after restarting the wazuh agent, lets head back to our kali machine an
 <img src="Images/sshkali.png">
 
 So we can see that the SSH connection to our ubuntu from kali is established successfully. So now our next goal is to move to the spacex directory and create a new file called `nizuii.txt`.
+<img src="Images/fim2">
