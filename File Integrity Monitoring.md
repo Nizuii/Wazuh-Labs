@@ -5,3 +5,10 @@ In this lab we are going to check **File Integrity Monitoring**. So our goal is 
 <directories realtime="yes" report_changes="yes" check_all="yes">/home/zoooi/spacex</directories>
 ```
 <img src="Images/fim1.png">
+
+This tells the agent to monitor this specific directories along with the other default monitoring directories. And right after adding we need to restart the wazuh agent to make the effect in action so we have to run:
+
+```bash
+sudo systemctl restart wazuh-agent
+```
+
