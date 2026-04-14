@@ -4,3 +4,4 @@ In this lab we are going to check **File Integrity Monitoring**. So our goal is 
 ```bash
 <directories realtime="yes" report_changes="yes" check_all="yes">/home/zoooi/spacex</directories>
 ```
+<img src="Images/fim1.png">
