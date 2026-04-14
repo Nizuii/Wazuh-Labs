@@ -24,3 +24,5 @@ hydra -l root -P /tmp/passlist.txt ssh://192.168.25.17 -t 4 -V
 And we can see that the attack has been occured and now lets check the wazuh events to find if anything suspicious occured.
 
 <img src="Images/wazuh2.png">
+
+We can see that wazuh is logging `sshd: authentication failed` Multiple times. So from this its clear that wazuh is detecting and logging the failed authentication resulting in successful discovery of the brute force attacks.
