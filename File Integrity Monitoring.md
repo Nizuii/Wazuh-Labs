@@ -16,5 +16,10 @@ So right after restarting the wazuh agent, lets head back to our kali machine an
 <img src="Images/sshkali.png">
 
 So we can see that the SSH connection to our ubuntu from kali is established successfully. So now our next goal is to move to the spacex directory and create a new file called `nizuii.txt`.
+
 <img src="Images/fileCreation.png">
 <img src="Images/fim2.png">
+
+We can see that right after creating nizuii.txt file inside `/home/zoooi/spacex`, Wazuh has already shows the alert `File added to the system`. Now lets try modifying this `nizuii.txt` file.
+ <img src="Images/fileModification.png">
+ <img src="Images/fim3.png">
