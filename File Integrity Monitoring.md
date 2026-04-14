@@ -29,3 +29,5 @@ Here we can see that right after we modified the `nizuii.txt` file by adding som
 
 <img src="Images/fileDeletion.png">
 <img src="Images/fim4.png">
+
+So we can see that the file is deleted and wazuh also found the file deletion by generating an 1alert called `File deleted`. SO we have seen File creation, modification and deletion and all 3 are working perfectly.
