@@ -12,3 +12,7 @@ This tells the agent to monitor this specific directories along with the other d
 sudo systemctl restart wazuh-agent
 ```
 
+So right after restarting the wazuh agent, lets head back to our kali machine and establish an SSH connection inorder to make it more realistic.
+<img src="Images/sshkali.png">
+
+So we can see that the SSH connection to our ubuntu from kali is established successfully. So now our next goal is to move to the spacex directory and create a new file called `nizuii.txt`.
