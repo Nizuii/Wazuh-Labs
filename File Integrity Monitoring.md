@@ -21,5 +21,6 @@ So we can see that the SSH connection to our ubuntu from kali is established suc
 <img src="Images/fim2.png">
 
 We can see that right after creating nizuii.txt file inside `/home/zoooi/spacex`, Wazuh has already shows the alert `File added to the system`. Now lets try modifying this `nizuii.txt` file.
+
  <img src="Images/fileModification.png">
  <img src="Images/fim3.png">
