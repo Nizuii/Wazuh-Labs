@@ -26,3 +26,6 @@ We can see that right after creating nizuii.txt file inside `/home/zoooi/spacex`
  <img src="Images/fim3.png">
 
 Here we can see that right after we modified the `nizuii.txt` file by adding some contents to it, wazuh generated another alert called: `Integrity checksum changed`. Now lets try deleting `nizuii.txt` file.
+
+<img src="Images/fileDeletion.png">
+<img src="Images/fim4.png">
